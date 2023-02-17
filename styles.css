@@ -1,2 +1,23 @@
-
 /* Your CSS Code here. */
+table{
+	border:2px solid black;
+	border-collapse:collapse;
+}
+th,td{
+	border:1px solid black;
+}
+th{
+	text-align:left;
+	color:white;
+	background-color:brown;
+	padding:2px 80px 2px 2px;
+	font-weight:lighter;
+}
+td{
+	background-color:rosybrown;
+	text-align:right;
+	padding:2px;
+}
+.firstrow{
+	text-align:left;
+}
